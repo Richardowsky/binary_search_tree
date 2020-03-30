@@ -17,7 +17,10 @@ jobs:
         go-version: 1.13
       id: go
     
+    - name: cd 
+      run: cd ./src
+  
     - name: Test
-      run: cd ./src,  go test -run ''
+      run:  go test -run ''
 
     
