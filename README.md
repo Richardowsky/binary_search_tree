@@ -1,6 +1,4 @@
 # binary_search_tree
-<<<<<<< Updated upstream
-=======
 
 ## Prerequisites:
 You need to install - [go 1.13](https://golang.org/dl/)
@@ -30,4 +28,3 @@ func example()  {
 }
 
 ```
->>>>>>> Stashed changes
