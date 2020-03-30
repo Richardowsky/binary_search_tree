@@ -18,7 +18,7 @@ jobs:
       id: go
     
     - name: cd 
-      run: cd ./src
+      run: cd /src
   
     - name: Test
       run:  go test -run ''
