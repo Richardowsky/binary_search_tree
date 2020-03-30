@@ -20,10 +20,10 @@ jobs:
   test:
     name: Test
     runs-on: ubuntu-latest
-    env: 
-      working-directory: ./src
+#     env: 
+#       working-directory: ./src
     steps: 
     - name: Test
-      run:  go test -run ''
+      run:  go test ./...
 
     
