@@ -70,139 +70,189 @@ func Test2(t *testing.T) {
 func Test3(t *testing.T) {
 	tree := &Node{
 		Data: 15,
-		Left:  &Node{
+		Left: &Node{
 			Data: 15,
-			Left:  &Node{
+			Left: &Node{
 				Data: 15,
-				Left:  &Node{
+				Left: &Node{
 					Data: 15,
-					Left:  &Node{
+					Left: &Node{
 						Data: 15,
-						Left:  &Node{
+						Left: &Node{
 							Data: 15,
+							Left: &Node{
+								Data: 15,
+								Left: &Node{
+									Data: 15,
+									Left: &Node{
+										Data: 15,
+										Right: &Node{
+											Data: 15,
+											Left: &Node{
+												Data:  15,
+												Left:  &Node{Data: 15,},
+												Right: &Node{Data: 15,},
+											},
+											Right: &Node{
+												Data:  15,
+												Right: &Node{Data: 16,},
+											},
+										},
+										Left: &Node{Data: 15,},
+									},
+									Right: &Node{
+										Data: 15,
+										Left: &Node{
+											Data:  15,
+											Right: &Node{Data: 15,},
+										},
+									},
+								},
+							},
+							Right: &Node{
+								Data: 15,
+								Left: &Node{
+									Data: 15,
+									Left: &Node{Data: 15,},
+								},
+							},
 						},
 					},
 					Right: &Node{
 						Data: 15,
-						Left:  &Node{
+						Left: &Node{
 							Data: 15,
+							Left: &Node{
+								Data: 15,
+								Left: &Node{Data: 15,},
+								Right: &Node{
+									Data: 15,
+									Left: &Node{
+										Data: 15,
+										Left: &Node{
+											Data: 15,
+											Left: &Node{
+												Data: 15,
+												Left: &Node{Data: 15,},
+											},
+										},
+									},
+									Right: &Node{
+										Data:  15,
+										Right: &Node{Data: 15,},
+									},
+								},
+							},
 						},
 					},
 				},
-				Right: &Node{
-					Data: 15,
-					Left:  &Node{
-						Data: 15,
-						Left:  &Node{
-							Data: 15,
-						},
-					},
-					Right: &Node{
-						Data: 15,
-						Right: &Node{
-							Data: 15,
-						},
-					},
-				},
+				Right: &Node{Data: 15,},
 			},
 			Right: &Node{
-				Data: 15,
-				Left:  &Node{
-					Data: 15,
-					Left:  &Node{
-						Data: 15,
-						Right: &Node{
-							Data: 15,
-						},
-					},
-					Right: &Node{
-						Data: 15,
-						Left:  &Node{
-							Data: 15,
-						},
-					},
-				},
-				Right: &Node{
-					Data: 15,
-					Left:  &Node{
-						Data: 15,
-						Right: &Node{
-							Data: 15,
-						},
-					},
-					Right: &Node{
-						Data: 15,
-						Right: &Node{
-							Data: 15,
-						},
-					},
-				},
+				Data:  15,
+				Left:  &Node{Data: 15,},
+				Right: &Node{Data: 15,},
 			},
 		},
 		Right: &Node{
 			Data: 15,
-			Left:  &Node{
+			Left: &Node{
 				Data: 15,
-				Left:  &Node{
+				Left: &Node{
 					Data: 15,
-					Left:  &Node{
+					Left: &Node{
 						Data: 15,
-						Left:  &Node{
+						Left: &Node{
 							Data: 15,
+							Left: &Node{
+								Data: 15,
+								Left: &Node{
+									Data: 15,
+									Left: &Node{
+										Data: 15,
+										Right: &Node{
+											Data:  15,
+											Right: &Node{Data: 15,},
+										},
+									},
+									Right: &Node{Data: 15,},
+								},
+								Right: &Node{Data: 15,},
+							},
+							Right: &Node{
+								Data:  15,
+								Right: &Node{Data: 15,},
+							},
 						},
-					},
-					Right: &Node{
-						Data: 15,
-						Left:  &Node{
+						Right: &Node{
 							Data: 15,
+							Left: &Node{
+								Data: 15,
+								Left: &Node{
+									Data: 15,
+									Left: &Node{
+										Data: 15,
+										Left: &Node{
+											Data: 15,
+											Right: &Node{
+												Data: 15,
+												Right: &Node{
+													Data: 15,
+													Left: &Node{Data: 15,},
+												},
+											},
+										},
+										Right: &Node{
+											Data:  15,
+											Right: &Node{Data: 15,},
+										},
+									},
+									Right: &Node{Data: 15,},
+								},
+								Right: &Node{
+									Data: 15,
+									Left: &Node{
+										Data: 15,
+										Right: &Node{
+											Data: 15,
+											Right: &Node{
+												Data: 15,
+												Right: &Node{
+													Data:  15,
+													Right: &Node{Data: 15,},
+												},
+											},
+										},
+									},
+								},
+							},
 						},
 					},
 				},
-				Right: &Node{
-					Data: 15,
-					Left:  &Node{
-						Data: 15,
-						Right: &Node{
-							Data: 15,
-						},
-					},
-					Right: &Node{
-						Data: 15,
-						Right: &Node{
-							Data: 15,
-						},
-					},
-				},
+				Right: &Node{Data: 15,},
 			},
 			Right: &Node{
 				Data: 15,
-				Left:  &Node{
-					Data: 15,
-					Left:  &Node{
-						Data: 15,
-						Right: &Node{
-							Data: 15,
-						},
-					},
-					Right: &Node{
-						Data: 15,
-						Left:  &Node{
-							Data: 15,
-						},
-					},
-				},
 				Right: &Node{
 					Data: 15,
-					Left:  &Node{
-						Data: 15,
-						Right: &Node{
-							Data: 15,
-						},
+					Left: &Node{
+						Data:  15,
+						Left:  &Node{Data: 15,},
+						Right: &Node{Data: 15,},
 					},
 					Right: &Node{
 						Data: 15,
+						Left: &Node{Data: 15,},
 						Right: &Node{
 							Data: 15,
+							Left: &Node{
+								Data: 15,
+								Left: &Node{
+									Data:  15,
+									Right: &Node{Data: 15,},
+								},
+							},
+							Right: &Node{Data: 15,},
 						},
 					},
 				},
